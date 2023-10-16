@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #64a19d;
+  --bs-primary: #75c5c5;
   --bs-secondary: #7464a1;
   --bs-success: #67c29c;
   --bs-info: #1cabc4;
@@ -2849,19 +2849,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #64a19d;
-  --bs-btn-border-color: #64a19d;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #558985;
-  --bs-btn-hover-border-color: #50817e;
+  --bs-btn-bg: #75c5c5;
+  --bs-btn-border-color: #75c5c5;
+  --bs-btn-hover-color: #ffffff67;
+  --bs-btn-hover-bg: #8ff0f0;
+  --bs-btn-hover-border-color: #8ff0f0;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #50817e;
-  --bs-btn-active-border-color: #4b7976;
+  --bs-btn-active-bg: #75c5c5;
+  --bs-btn-active-border-color: rgb(67, 110, 107);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #64a19d;
-  --bs-btn-disabled-border-color: #64a19d;
+  --bs-btn-disabled-bg: #75c5c5;
+  --bs-btn-disabled-border-color: #7dcfcf;
 }
 
 .btn-secondary {
@@ -10986,8 +10986,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #75c5c5;
+  border: 1px solid #75c5c5;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/Fondo.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 50%, #ecedee 100%), url("../assets/img/Fondo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11113,7 +11113,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #ecedee 0%, rgba(0, 0, 0, 0.7) 50%, rgba(254, 106, 106, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11121,6 +11121,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(254, 106, 106, 0.8) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(191, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0.6) 100%);
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11143,7 +11144,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0.4) 70%, #000 100%), url("../assets/img/Fondo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11165,7 +11166,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #bffffb;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11175,7 +11176,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: #bffffb;
   border-width: 0.25rem;
   width: 3rem;
 }
