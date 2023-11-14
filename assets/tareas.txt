@@ -1,0 +1,7 @@
+-Poner HOver en los personajes
+:ULTIMO: -Animacion de background, que funcione. 
+-Cambiar personajes por targeta, animacion volteo.
+-No meto a Martin finito.
+-Donde van los niveles, poner dos puzles y sus desc del gdd
+-Poner Brrrr a boton
+-Poner titulo donde cuadro
