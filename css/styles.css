@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 50%, #BFFFFF 120%), url("../assets/img/Fondo.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 1) 90%), url("../assets/img/Fondo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11113,15 +11113,28 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #BFFFFF -23%, rgba(0, 0, 0, 0.7) 50%, rgba(254, 106, 106, 0.8) 100%);
+  /* background: linear-gradient(to bottom, #BFFFFF -23%, rgba(0, 0, 0, 0.7) 50%, rgba(254, 106, 106, 0.8) 100%); */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0.4) 70%, #000 100%), url("../assets/img/Fondo_targetas.png");;
 }
 .about-section p {
   margin-bottom: 5rem;
 }
 
+.background-div {
+  width: 1650px;
+  height: 1080px;
+  background-image: url('../assets/img/Fondo_targetas_4.png'); 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .members-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 15%, rgba(0, 0, 0, 0.4) 70%, #000 100%), url("../assets/img/Fondo.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0.4) 70%, #000 100%), url("../assets/img/Fondo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11137,7 +11150,8 @@ body {
 
 .projects-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(254, 106, 106, 0.8) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(191, 255, 255, 0.8) 70%, rgba(0, 0, 0, 0.9) 100%);
+  /* background: linear-gradient(to bottom, rgba(254, 106, 106, 0.8) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(191, 255, 255, 0.8) 70%, rgba(0, 0, 0, 0.9) 100%); */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0.4) 70%, #000 100%), url("../assets/img/Fondo_targetas.png");
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11284,22 +11298,30 @@ body {
   opacity: 1;
 }
 
+
+
+.card-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+} 
+
+.flip-card-inner {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
 .flip-card {
   background-color: transparent;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 200px;
-  height: 300px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
@@ -11309,8 +11331,8 @@ body {
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -11326,4 +11348,22 @@ body {
   background-color: transparent;
   color: white;
   transform: rotateY(180deg);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 24px;
+  margin: 15px 40px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
