@@ -1,9 +1,9 @@
 const imagesP = 
-["./assets/img/Puzles/geometryP.PNG",
- "./assets/img/Puzles/cuadroP.PNG",
- "./assets/img/Puzles/hieloP.PNG",
- "./assets/img/Puzles/aguaP.PNG",
- "./assets/img/Puzles/hogeraP.PNG"
+["./assets/img/Puzles/geometryP.png",
+ "./assets/img/Puzles/cuadroP.png",
+ "./assets/img/Puzles/hieloP.png",
+ "./assets/img/Puzles/aguaP.png",
+ "./assets/img/Puzles/hogeraP.png"
 ];
 const textsP = 
 ["Esquiva afiladas rocas",

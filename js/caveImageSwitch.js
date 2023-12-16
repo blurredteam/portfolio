@@ -1,5 +1,5 @@
 const images = 
-["./assets/img/Cueva/Pantalla_entre_niveles.PNG",
+["./assets/img/Cueva/Pantalla_entre_niveles.png",
  "./assets/img/Cueva/mapa.png",
  "./assets/img/Cueva/Pantalla_entre_niveles_2.png"
 ];
