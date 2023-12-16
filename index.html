@@ -1,209 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Blurred</title>
-        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity-75" id="mainNav">
-            <div class="container px-4 px-lg-5 px-sm-2">
-                <a href="#" class="navbar-brand"><img src="./assets/img/bton3.png" width="60" height="60"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Sobre nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#members">Miembros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contactos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <img class="img-fluid" src="assets/img/LOGOTIPO-FONDO-SIN-FONDO-2.png" alt="..." />
-            <div class="container px-4 px-lg-5 d-flex h-50 align-items-center justify-content-center">
-                <div class="d-flex">
-                    
-                    <div class="text-center">
-    
-                        <h3 class="text-white-50 mx-auto mt-2 mb-5">Desafia tus capacidades</h2>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-                        <a class="btn btn-secondary opacity-75 justify-content-center" href="https://itch.io/profile/blurreddevs">   START THE JOURNEY</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <img class="img-fluid" src="./assets/img/logo_WALKING_TIME.png" />
-                        <p class="text-white text-opacity-50 py-4">“Walking Time!” pone al jugador a cargo de un equipo de expedición que reúne, a cada cual por un motivo distinto, a varios aventureros de distintas procedencias dispuestos a explorar una isla fantástica llena de parajes maravillosos. El trabajo del jugador es tomar las decisiones a la hora de explorar la isla, desde qué aventureros deben ir a explorar esta vez a qué camino coger para ello y resolver los diferentes puzzles y desafíos que el equipo se encuentre en su travesía.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <p></p>
-                <div class="container px-4 px-lg-5 ">
-                    <div class="row justify-content-center" >
-                        <div class="col-md-auto col-sm-4 justify-content-center">
-                                <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                    <div class="flip-card-front">
-                                        <img src="./assets/img/targetas/1-1.png" alt="Avatar">
-                                    </div>
-                                    
-                                    <div class="flip-card-back">
-                                        <img src="./assets/img/targetas/1.png" alt="Avatar">
-                                    </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-auto" >
-                        <button class="btn btn-warning arrow left" onclick="showCard('prev')"></button>
-                        <button class="btn btn-warning arrow right" onclick="showCard('next')"></button>        
-                    </div>
-                <script src="./js/showCard.js"></script>
-        </section>
 
-        
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7 justify-content-center">
-                        <iframe width="480" heigh="290" src="//https://www.youtube.com/watch?v=Ki6tkDbEn9o"></iframe>
-                    </div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4 class="text-white">Descubre nuestros avances</h4>
-                            <p class="text-white-50 mb-0">Descubre el gran mundo de Walking Time! </p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Blurred</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top" style="background-color: #000000;">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity-100" id="mainNav">
+        <div class="container px-4 px-lg-5 px-sm-2">
+            <a href="#" class="navbar-brand"><img src="./assets/img/bton3.png" width="60" height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#WalkingTime">Walking Time</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Trailer">Trailer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Informacion">Informacion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#members">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signup">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+
+        <div class="container px-4 px-lg-5 d-flex h-50 align-items-center justify-content-center">
+            <div class="d-flex">
+
+                <div class="text-center">
+                    <img class="img-fluid" src="assets/img/LOGOTIPO-FONDO-SIN-FONDO-2.png" alt="..." />
+                    <h1 class="text-white mx-auto mt-2 mb-5">BLURRED TEAM</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="WalkingTime">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <img class="img-fluid" src="./assets/img/logo_WALKING_TIME.png" />
+                    <p class="text-white text-opacity-50 "
+                        style="text-align:center;white-space:normal;margin-bottom: 1cm">
+                        “Walking Time!” pone al jugador a cargo de un equipo de
+                        expedición que reúne, a cada cual por un motivo distinto, a varios aventureros de distintas
+                        procedencias dispuestos a explorar una isla fantástica llena de parajes maravillosos. El trabajo
+                        del jugador es tomar las decisiones a la hora de explorar La isla, desde qué aventureros deben
+                        ir a explorar esta vez a qué camino escoger para ello y resolver los diferentes puzzles y desafíos
+                        que el equipo se encuentre en su travesía.
+                    </p>
+                </div>
+                <div class="col-lg-8" style="text-align:center;white-space:normal;margin-bottom: 2.5cm">
+                    <a class="btn btn-dark opacity-75 justify-content-center" style="background-color: #c17337"
+                        href="https://itch.io/profile/blurreddevs"> Jugar ahora </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects-->
+    <section class="trailer-section " id="Trailer" style="background-color: #000000;">
+
+        <div class="container px-4 px-lg-5 justify-content-center" style="text-align: center;">
+
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-4 mb-lg-5 justify-content-center" >
+                <div class="col-xl-8 col-lg-7 justify-content-center" style="margin-top: 2cm;">
+                    <h2 class="text-white" style="text-align:center; margin-bottom: 1cm; margin-top: 2 cm;">Trailer oficial</h2>
+
+                    <!--iframe width="480" heigh="290" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></iframe-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zi_XLOBDo_Y?si=Nwhm1H1nuIY2qc5Y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+    </section>
+
+    <section class="cards-section" id="cards">
+        <div class="container px-4 px-lg-6" style=" background-color: transparent;">
+            <h2 class="text-white" style="text-align:center;white-space:normal;margin-bottom: 1cm ;">Conoce a los
+                protagonistas</h2>
+            <div class="row justify-content-center">
+
+                <div class="col-md-auto col-sm-4 justify-content-center">
+
+
+
+                    <div style="margin-top: 0 cm; text-align:center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="./assets/img/targetas/1-1.png" alt="Avatar">
+                                </div>
+
+                                <div class="flip-card-back">
+                                    <img src="./assets/img/targetas/1.png" alt="Avatar">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="./assets/img/puzzle1.png" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
+            </div>
+            <div class="col-auto" style="text-align: center;">
+                <button class="btn btn-dark arrow left" onclick="showCard('prev')"></button>
+                <button class="btn btn-dark arrow right" onclick="showCard('next')"></button>
+            </div>
+            <script src="./js/showCard.js"></script>
+        </div>
+    </section>
+
+
+    <section class="projects-section bg-light" id="Informacion">
+        <!-- RECURSOS-->
+        <div class="container px-4 px-lg-5">
+            <div class="container px-4 px-lg-5" style="margin-bottom: 2.5cm;">
+                <h1 class="text-white" style="text-align:center;white-space:normal;margin-bottom: 2cm; font-size:300%;">
+                    Adentrate en la aventura</h1>
+                <h2 class="text-white" style="text-align:center;white-space:normal;margin-bottom: 1cm ;">Controla tus
+                    recursos</h2>
+
+                <section
+                    style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 20px; background-color: transparent">
+
+                    <!-- Item 1 -->
+                    <div style="flex: 0 0 33%; margin-bottom: 20px;">
+                        <img class="img-fluid" src="./assets/img/Iconos/Icono energia.PNG" alt="Image 1"
+                            style="width: 100%; max-height: 250px; object-fit: contain; border-radius: 8px;">
+                        <h4 class="text-white" style="text-align:center;margin: 0;">Energía</h4>
+                        <p class="text-white" style="text-align:center;margin: 0;">Si se agota pierdes</p>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div style="flex: 0 0 33%; margin-bottom: 20px;">
+                        <img class="img-fluid" src="./assets/img/Iconos/Icono agua 1.PNG" alt="Image 2"
+                            style="width: 100%; max-height: 250px; object-fit: contain; border-radius: 8px;">
+                        <h4 class="text-white" style="text-align:center;margin: 0;">Agua</h4>
+                        <p class="text-white" style="text-align:center;margin: 0;">Permite recuperar energía</p>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div style="flex: 0 0 33%; margin-bottom: 20px;">
+                        <img class="img-fluid" src="./assets/img/Iconos/Icono oro.PNG" alt="Image 3"
+                            style="width: 100%; max-height: 250px; object-fit: contain; border-radius: 8px;">
+                        <h4 class="text-white" style="text-align:center;margin: 0;">Oro</h4>
+                        <p class="text-white" style="text-align:center;margin: 0;">Para comprar objetos</p>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- CUEVA Y MAPA-->
+            <script src="./js/caveImageSwitch.js"></script>
+            <script src="./js/PuzzlesCampsSwitch.js"></script>
+            <div class="container px-4 px-lg-5" style="margin-bottom: 1cm;">
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" style="margin-bottom: 2.5cm;">
+                    <div class="col-lg-6"><!-- left col-->
+                        <div class=" text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Drag&Drop</h4>
-                                    <p class="mb-0 text-white-50">En el caso del mapa, el encontrar un mapa y ordenar correctamente sus piezas hace que los aventureros sepan donde están y a dónde tienen que ir dentro de la expedición.</p>
+                                    <h2 class="text-white">Explora una misteriosa cueva </h2>
+                                    <p id="caveText" class=" text-white-50" style="font-size: medium;">Los
+                                        aventureros se adentran en una oscura y tenebrosa
+                                        cueva llena de secretos, retos, sorpresas y piedras bonitas</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="./assets/img/puzzle2.PNG" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Fuente</h4>
-                                    <p class="mb-0 text-white-50">Durante la expedición, los aventureros pueden gastar agua de su cantimplora para recuperar energía, de ahí que haya fuentes o manantiales dispersos por los escenarios, para poder rellenarla.</p>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-          
-        </section>
+                    <div class="col-lg-6"><!-- left col-->
+                        <div style="position: relative;">
+                            <img id="caveImage" class="img-fluid" src="./assets/img/Cueva/Pantalla_entre_niveles.PNG"
+                                alt="Image 1"
+                                style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px;">
 
-        <section class="members-section bg-light" id="members">
-            <p></p>
-            <div class="container px-4 px-lg-5">
-                <h1 class="text-center text-white-50">Equipo</h1>
-                <div class="row justify-content-center opacity-75">
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card" data-toggle="collapse" data-target="#member1name">
-                            <img src="./assets/img/integrantes/Jesus.png" class="card-img-top" alt="Team Member 1">
-                            <div class="card-body">
-                                <h2 class="card-title">Jesús Gálvez Lao </h2>
+                            <!-- Left Arrow -->
+                            <div
+                                style="position: absolute; top: 50%; left: -40px; transform: translateY(-50%); z-index: 1;">
+                                <button onclick="changeContent(-1)"
+                                    style="background: #1d1c1c; border: none; font-size: 24px; cursor: pointer; opacity: 0.75; color:white; border-radius: 5px; padding: 10px;">&lt;</button>
                             </div>
+
+                            <!-- Right Arrow -->
+                            <div
+                                style="position: absolute; top: 50%; right: -40px; transform: translateY(-50%); z-index: 1;">
+                                <button onclick="changeContent(1)"
+                                    style="background: #1d1c1c; border: none; font-size: 24px; cursor: pointer; opacity: 0.75; color:white; border-radius: 5px; padding: 10px;">&gt;</button>
+                            </div>
+
                         </div>
                     </div>
-            
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card">
-                            <img src="./assets/img/integrantes/Lucas.png" class="card-img-top" alt="Team Member 2">
-                            <div class="card-body">
-                                <h3 class="card-title">Lucas Andosilla Herráiz</h3>
+                </div>
+            </div>
+
+            <!-- PUZLES Y CAMPAMENTOS-->
+            <div class="container px-4 px-lg-5" style="margin-bottom: 1cm;">
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><!-- left col-->
+                        <div style="position: relative;">
+                            <img id="PImage" class="img-fluid" src="./assets/img/Puzles/geometryP.PNG" alt="..."
+                                style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px;">
+
+                            <!-- Left Arrow -->
+
+                            <div
+                                style="position: absolute; top: 50%; left: -40px; transform: translateY(-50%); z-index: 1;">
+                                <button onclick="changePContent(-1)"
+                                    style="background: #1d1c1c; border: none; font-size: 24px; cursor: pointer; opacity: 0.75; color:white; border-radius: 5px; padding: 10px;">&lt;</button>
                             </div>
+
+                            <!-- Right Arrow -->
+                            <div
+                                style="position: absolute; top: 50%; right: -40px; transform: translateY(-50%); z-index: 1;">
+                                <button onclick="changePContent(1)"
+                                    style="background: #1d1c1c; border: none; font-size: 24px; cursor: pointer; opacity: 0.75; color:white; border-radius: 5px; padding: 10px;">&gt;</button>
+                            </div>
+
                         </div>
                     </div>
-            
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card">
-                            <img src="./assets/img/integrantes/Lucia.png" class="card-img-top" alt="Team Member 3">
-                            <div class="card-body">
-                                <h3 class="card-title">Lucia Beatriz Piqueras Garví</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card">
-                            <img src="./assets/img/integrantes/calero.png" class="card-img-top" alt="Team Member 1">
-                            <div class="card-body">
-                                <h3 class="card-title">Juan Antonio Calero Crespo</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card">
-                            <img src="./assets/img/integrantes/Jose.png" class="card-img-top" alt="Team Member 1">
-                            <div class="card-body">
-                                <h3 class="card-title">Jose Antonio Milan Jiménez</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card">
-                            <img src="./assets/img/integrantes/Martin.png" class="card-img-top" alt="Team Member 1">
-                            <div class="card-body">
-                                <h3 class="card-title">Martin Vogels Bejarano</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card team-member-card">
-                            <img src="./assets/img/integrantes/Dani.png" class="card-img-top" alt="Team Member 1">
-                            <div class="card-body">
-                                <h3 class="card-title">Daniel Daryanani Delgado</h3>
+                    <div class="col-lg-6"><!-- left col-->
+                        <div class=" text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h2 class="text-white">Enfrentate a arduos desafíos </h2>
+                                    <p id="PText" class="text-white-50" style="font-size: medium;">Esquiva
+                                        obstaculos</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <!-- Signup-->
-        <!--<section class="signup-section" id="signup">
+
+
+            <div class="container  justify-content-center" style=" background-color: transparent;">
+                <h2 id="Ltext" class="text-white" style="text-align:center;white-space:normal ;">Toma
+                    nota de
+                    tus aventuras
+                </h2>
+                <p class=" text-white-50" style="text-align:center;font-size: medium;margin-bottom: 1cm">El libro del aventurero contiene toda la informacion que necesites dentro del juego</p>
+                <div class="row justify-content-center">
+                    <!-- Item 1 -->
+                    <div class="col-md-6 mb-4" style=" margin-bottom: 20px;">
+                        <img id="PImage" class="img-fluid" src="./assets/img/Libro/Libro_Aventureros_Berenjeno.png" alt="..."
+                            style="width: 100%; max-height: 800px; object-fit: contain; border-radius: 8px;">
+                       
+            
+                    </div>
+            
+                    <!-- Item 2 -->
+                    <div class="col-md-6 mb-4" style=" margin-bottom: 20px;">
+                        <img id="PImage" class="img-fluid" src="./assets/img/Libro/Libro_Casillas_Desafíos.png" alt="..."
+                            style="width: 100%; max-height: 600px; object-fit: contain; border-radius: 8px;">
+                        
+            
+                    </div>
+            
+            
+                </div>
+            
+                </section>
+            </div>
+
+
+                <!--
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./assets/img/puzzle1.png" alt="..." />
+                </div>
+                <div class="col-lg-6">
+                    <div class=" text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Drag&Drop</h4>
+                                <p class="mb-0 text-white-50">En el caso del mapa, el encontrar un mapa y ordenar
+                                    correctamente sus piezas hace que los aventureros sepan donde están y a dónde tienen
+                                    que ir dentro de la expedición.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+       
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./assets/img/puzzle2.PNG" alt="..." />
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Fuente</h4>
+                                <p class="mb-0 text-white-50">Durante la expedición, los aventureros pueden gastar agua
+                                    de su cantimplora para recuperar energía, de ahí que haya fuentes o manantiales
+                                    dispersos por los escenarios, para poder rellenarla.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+
+    </section>
+
+
+
+
+
+
+    <section class="members-section bg-light" id="members">
+        <p></p>
+        <div class="container px-4 px-lg-5">
+            <h1 class="text-center text-white">Equipo</h1>
+            <div class="row justify-content-center opacity-75">
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card" data-toggle="collapse" data-target="#member1name">
+                        <img src="./assets/img/integrantes/Jesus.png" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body">
+                            <h2 class="card-title">Jesús Gálvez Lao<br> Equipo técnico</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card">
+                        <img src="./assets/img/integrantes/Lucas.png" class="card-img-top" alt="Team Member 2">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucas Andosilla Herráiz<br> Equipo técnico</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card">
+                        <img src="./assets/img/integrantes/Lucia.png" class="card-img-top" alt="Team Member 3">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucia Beatriz Piqueras Garví<br> Equipo de arte</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card">
+                        <img src="./assets/img/integrantes/calero.png" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Juan Antonio Calero Crespo<br> Equipo de arte</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card">
+                        <img src="./assets/img/integrantes/Jose.png" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Jose Antonio Milan Jiménez<br> Equipo técnico</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card">
+                        <img src="./assets/img/integrantes/Martin.png" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Martin Vogels Bejarano<br> Equipo técnico</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="col-sm-3 justify-content-center">
+                    <div class="card team-member-card">
+                        <img src="./assets/img/integrantes/Dani.png" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Daniel Daryanani Delgado</h3>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup-->
+    <!--<section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -228,62 +431,76 @@
                 </div>
             </div>
         </section>-->
-        <!-- Contact-->
-        <section class="contact-section bg-black" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Dirección</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Calle Quintana Aula 604</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Correo</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="mailto:blurreddevs@gmail.com">blurreddevs@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-gamepad text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Juego</h4>
-                                <hr class="my-4 mx-auto">
-                                <div class="small text-black-50"><a href="https://itch.io/profile/blurreddevs"  class="btn btn-outline-primary" role="button">Pruebalo Ahora!</a></div>
-                            </div>
+    <!-- Contact-->
+    <section class="contact-section bg-black" id="signup">
+        <div class="container px-4 px-lg-5">
+            <h1 class="text-center text-white" style="text-align:center;white-space:normal;margin-bottom: 1cm ;">
+                Conocenos en profundidad</h1>
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-solid fa-link text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Redes sociales</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a href="https://linktr.ee/blurreddevs">Todas nuestras
+                                    redes</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="https://instagram.com/blurreddevs?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
-                    <a class="mx-2" href="https://github.com/blurredteam"><i class="fab fa-github"></i></a>
-                    <a class="mx-2" href="https://itch.io/profile/blurreddevs"><i class="fa fa-gamepad"></i></a>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Correo</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a
+                                    href="mailto:blurreddevs@gmail.com">blurreddevs@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-gamepad text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Juego</h4>
+                            <hr class="my-4 mx-auto">
+                            <div class="small text-black-50">
+                                <a href="https://itch.io/profile/blurreddevs"
+                                    class="btn btn-dark opacity-75 justify-content-center"
+                                    style="background-color: #37b8c1" role="button">Pruebalo Ahora!
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="https://instagram.com/blurreddevs?igshid=MzRlODBiNWFlZA=="><i
+                        class="fab fa-instagram"></i></a>
+                <a class="mx-2" href="https://github.com/blurredteam"><i class="fab fa-github"></i></a>
+                <a class="mx-2" href="https://itch.io/profile/blurreddevs"><i class="fa fa-gamepad"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">Copyright &copy; Blurreddevs - 2023</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>
